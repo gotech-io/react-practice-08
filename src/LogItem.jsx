@@ -1,3 +1,4 @@
+import React from 'react';
 import useRenderCount from './useRenderCount';
 
 function LogItem({ text }) {
@@ -12,4 +13,5 @@ function LogItem({ text }) {
   );
 }
 
-export default LogItem;
+const MemoLogItem = React.memo(LogItem);
+export default MemoLogItem;

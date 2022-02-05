@@ -1,4 +1,5 @@
-import { useState } from 'react';
+import React, { useState } from 'react';
+import _ from 'lodash';
 import getRandomColor from './getRandomColor';
 import useRenderCount from './useRenderCount';
 import './ColorChangingCube.css';
@@ -23,4 +24,5 @@ function ColorChangingCube({ id, onColorChanged, object }) {
   );
 }
 
-export default ColorChangingCube;
+const MemoColorChangingCube = React.memo(ColorChangingCube, _.isEqual);
+export default MemoColorChangingCube;
