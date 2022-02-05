@@ -1,0 +1,17 @@
+.cube {
+  padding: 12px;
+  text-align: center;
+  border: 2px solid black;
+  margin: 0 12px;
+  font-weight: bold;
+}
+
+.id-display {
+  font-size: 12px;
+  margin-bottom: 6px;
+  font-weight: normal;
+}
+
+.change-color-btn {
+  margin-top: 8px;
+}

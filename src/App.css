@@ -1,0 +1,27 @@
+.App {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.container {
+  padding: 12px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.color-changers {
+  display: flex;
+  border: 2px solid black;
+  padding: 12px;
+}
+
+.log {
+  margin: 12px 0;
+  border: 2px solid black;
+  height: 200px;
+  overflow: scroll;
+  list-style: none;
+}
